@@ -43,7 +43,7 @@ while True:
     count = count + 1
 
     if count % 2 == 0:
-        logger.error('Error Message Code Faield :{} '.format(count))
+        logger.error(f'Error Message Code Faield :{count} ')
     else:
-        logger.info('python-logstash: test logstash info message:{} '.format(count))
+        logger.info(f'python-logstash: test logstash info message:{count} ')
 
